@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: Challenge3.ma
-//Last modified: Sun, Sep 20, 2026 11:26:39 PM
+//Name: ModelRoom.ma
+//Last modified: Sun, Sep 20, 2026 11:27:36 PM
 //Codeset: 1252
 file -rdi 1 -ns "Cup_model" -rfn "Cup_modelRN" -op "v=0;" -typ "mayaAscii" "C:/Users/nicoc/Github/Essentials/DAGV1100and1200/Maya//scenes/Cup model.ma";
 file -rdi 1 -ns "Table1" -rfn "Table1RN" -op "v=0;" -typ "mayaAscii" "C:/Users/nicoc/Github/Essentials/DAGV1100and1200/Maya//scenes/Table1.ma";
@@ -28,7 +28,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "584B3AF2-4590-08ED-2169-69AB0A8992A9";
+fileInfo "UUID" "CB2EE8B9-4505-0C5E-0AC1-3BAD20AB9563";
 createNode transform -s -n "persp";
 	rename -uid "0B7C4C57-43F3-7A48-CB4E-46ADFDF31E10";
 	setAttr ".v" no;
@@ -1201,4 +1201,4 @@ connectAttr "ChairShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId7.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId8.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId9.msg" ":initialShadingGroup.gn" -na;
-// End of Challenge3.ma
+// End of ModelRoom.ma
